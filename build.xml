@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<project name="Sample usage of deploy task" default="deployAndTestAndReport" basedir=".">
-<target name="deployAndTestAndReport">
-<taskdef name="sfdeploy" classname="com.claimvantage.force.ant.DeployWithXmlReportTask"/>
-<delete dir="test-report-xml" quiet="true"/>
-<!--<sfdeploy username="rextencydemo" password="T2Schl*+" serverurl="https://github.com/rextencydemo/Demo.git" deployRoot="C:\Program Files (x86)\Jenkins\jobs\gitdemo\workspace" runalltests="true" reportDir="test-report-xml" />-->
-</target>
-</project>
